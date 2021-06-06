@@ -1,0 +1,12 @@
+.rodape { 
+  text-align: center;
+  background:linear-gradient(to right, #7f268f, #8f5ecc);
+}
+
+.rodape p {
+  color: #f0ebeb;
+  padding: 20px 20px;
+  font-size: 1rem;
+}
+
+

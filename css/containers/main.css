@@ -1,0 +1,55 @@
+body {
+  background: #eceaea;
+}
+
+/* Caixa de perguntas */
+.pergunta {
+  position: relative;
+  display: inline-block;
+
+  width: 50%;
+  margin-left: 25%;
+  margin-top: 25px;
+}
+.pergunta p {
+  position: absolute;
+  display: inline;
+  font-size: large;
+  left: 3%;
+  top: 10px;
+}
+/* Container com a imagem do genio*/
+.container-img{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.container-img img {
+  padding-top: 20px;
+  width: 240px;
+}
+
+/* Caixa de respostas */
+.resposta {
+  position: relative;
+  width: 50%;
+  margin-left: 25%;
+  margin-top: 25px;
+}
+
+/* Menu auxiliar */
+.container {
+  display: inline-block;
+  width: 100%;  
+  margin-bottom: 20px;
+  height: 60px;
+}
+.container .menu {
+  display: none;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.9);
+  top: 0;
+  left: 0;
+} 

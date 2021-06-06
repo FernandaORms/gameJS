@@ -1,0 +1,37 @@
+.resposta input {
+  display: none;
+}
+
+.pergunta input, .resposta input {
+  font-family: 'Sriracha', cursive;
+
+  width: 88%;
+  height: 50px;
+  padding-left: 3%;
+
+  font-size: large;
+  border: none;
+  border-radius: 20px;
+}
+
+::placeholder {
+  color: darkslategrey;
+  font-size: large;
+}
+.pergunta input:focus::placeholder {
+  color: rgba(0, 0, 0, 0.4);
+  font-size: medium;
+}
+
+@media screen and (max-width: 560px){
+  .pergunta, .resposta {
+    width: 94%;
+    margin-left: 3%;
+  }
+}
+@media screen and (max-width: 720px){
+  .pergunta, .resposta {
+    width: 80%;
+    margin-left: 10%;
+  }
+}

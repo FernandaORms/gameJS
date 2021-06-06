@@ -1,0 +1,18 @@
+.cabecalho {
+  background:linear-gradient(to right, #7f268f, #8f5ecc); 
+ 
+  text-align: center;
+}
+
+.cabecalho h1 {
+  font-size: 2em;
+  color: #f0ebeb;
+  display: inline-block;
+}
+
+.cabecalho a i img {
+  padding: 10px 0 5px;
+  width: 35px;
+  float: right;
+  margin-right: 2%;
+}

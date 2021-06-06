@@ -1,0 +1,49 @@
+.btn-pergunta {
+  position: absolute;
+  left: 92%;
+  top: 8px;
+
+  border: none;
+  background-color: transparent;
+}
+.btn-pergunta img {
+  width:35px;
+}
+.btn-pergunta img:hover {
+  width: 40px;
+}
+
+.btn-menu{
+  border: none;
+  background-color: transparent;
+  margin-left: 5%;
+
+}
+.btn-menu img:hover {
+  width: 55px;
+}
+
+.btn-close {
+  float: right;
+  margin-top: 4%;
+  margin-right: 15%;
+  padding: 0.2% 2%;
+  font-size: 30px;
+  border-radius: 100px;
+}
+
+.btn-restart {
+  float: right;
+  margin-right: 5%;
+  background: #1a1919;
+  height: 50px;
+  border-radius: 50px;
+  border:none;
+  padding: 0 20px;
+  text-decoration: none;
+  color: #ffff;
+  font-size: 18px;
+}
+.btn-restart:hover {
+  font-size: 19px;
+}

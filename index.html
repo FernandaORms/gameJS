@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>BiroLiroBiro</title>
+  <link rel="icon" href="img/magia.png">
+  <link rel="stylesheet" href="./css/index.css">
+  <script src="js/script.js"></script> 
+</head>
+<body>
+  <!-- Cabecalho -->
+  <header class="cabecalho">
+    <h1>BiroLiroBiro</h1>
+    <a href="https://github.com/FernandaORms" target="_blank"><i><img src="./icons/github.svg" alt="github icon"></i></a>
+  </header>
+
+  <!-- Conteudo principal -->
+  <main>
+    <section class="pergunta">
+      <p id="iSecret"></p>
+      <input type="text" placeholder="Digite aqui sua pergunta..." id="iPergunta">
+      <button id="btn-pergunta" class="btn-pergunta" onclick="pesquisar()">
+          <img src="icons/search.svg" >
+      </button>
+    </section>
+    <div class="container-img">
+      <img id="genio" src="img/genie.png" alt="Gênio" id="img">
+    </div>
+    <section class="resposta">
+      <input type="text" placeholder="Resposta..." id="iResposta">
+    </section>
+  </main>
+  
+  <!-- Menu de ajuda -->
+  <section class="container">
+    <button class="btn-menu" id="btnMenu" onclick="abrirMenu()">
+      <img src="icons/question-mark.svg" width="50px">
+    </button>
+    <div class="menu" id="iMenu">
+      <button class="btn-close" id="btnClose" onclick="fecharMenu()">
+        <img src="./icons/cancel.svg" width="18px">
+      </button>  
+      <ol>
+        <legend><span style="font-weight: 400; font-size: 20px">Como o BiroLiroBiro funciona?</span></legend>
+        <li>Digite a resposta (no máximo <span style="color: black; font-size: 20px; font-weight: bolder;">41</span> caracteres)</li>
+        <li>Aperte a tecla ' <span style="color: black; font-size: 20px; font-weight: bolder;">.</span> 'para finalizar sua resposta</li>
+        <li>Digite a pergunta</li>
+        <li>Clique no ícone ' <img src="./icons/search.svg" width="20px"> '</li>
+        <li>Clique em <span style="color: black; font-size: 20px; font-weight: bolder;">Jogar novamente</span> para fazer outra pergunta</li>
+        </ol>     
+    </div>
+    <button class="btn-restart" onclick="location.reload()">
+      Jogar novamente
+    </button>
+  </section>
+  
+  <!-- Rodape -->
+  <footer class="rodape">
+    <p>
+      Copyright 2021 &copy; - BiroLiroBiro - Todos os direitos reservados
+    </p>
+  </footer>
+</body>
+</html>
